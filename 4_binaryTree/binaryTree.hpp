@@ -89,7 +89,7 @@ void binaryTree<T>::createBTree(std::istream& in, node<T>* &subTree)
 template<typename T>
 bool binaryTree<T>::insert(node<T>* &subTree, const T& x)
 {
-    
+    return false;
 }
 
 /**
@@ -112,13 +112,13 @@ void binaryTree<T>::destroy(node<T>* &subTree)
 template<typename T>
 bool binaryTree<T>::find(node<T>* subTree, const T& x) const
 {
-
+    return true;
 }
 
 template<typename T>
 node<T>* binaryTree<T>::find(node<T>* subTree, const T& x) const
 {
-
+    
 }
 
 template<typename T>
